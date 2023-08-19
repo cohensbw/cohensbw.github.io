@@ -2,25 +2,26 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Postdoctoral Researcher @ The University of Tennessee, Knoxville
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: headshot.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Office 212 @ <a href='https://research.utk.edu/iamm/'>IAMM</a></p>
+    <p>2641 Osprey Vista Way</p>
+    <p>Knoxville, TN 37920</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, and thank you for visiting my site!
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I currently work as a postdoctoral researcher in Professor Steve Johnston's research group in the physics department at the University of Tennessee, Knoxville. My research interests focus on the development and application of novel numerical methods to address problems in the field of condensed matter (CM) physics,
+with the ultimate goal to bridge the gap between theory and experiment. I am also interested in investigating opportunities to supplement standard numerical methods in CM with machine learning approaches in an effort to both accelerate existing computations, and also infer additional information from the high-dimensional data sets generated in studies of quantum materials.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Recently, my research efforts have focused on developing and applying quantum Monte Carlo (QMC) methods to study model Hamiltonians meant to describe various quantum materials. In parallel with this effort, I am also actively developing well-documented and user-friendly open-source QMC software packages, in an effort to make these algorithms more accessible to the broader CM community.

@@ -1,97 +1,115 @@
-- title: General Information
+- title: General Info
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Benjamin Cohen-Stead
+    - name: Email
+      value: benwcs@gmail.com
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Physics
+      institution: University of California, Davis
+      year: 2016 - 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - "Advisor: Professor Richard Scalettar"
+        - "Thesis: A hybrid quantum Monte Carlo method for electron-phonon models"
+    - title: B.A. in Physics
+      institution: Whitman College
+      year: 2010 - 2014
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Postdoctoral Researcher
+      institution: University of Tennessee, Knoxville
+      year: 2022 - present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - "Department of Physics and Astronomy"
+        - "Member of Professor Steve Johnston research group."
+    - title: Graduate Student Researcher
+      institution: Los Alamos National Laboratory
+      year: 2020 - 2022
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - "Project: Langevin Methods for Quantum Electron-Phonon Simulations"
+        - Mentored by Dr. Kipton Barros as part of <a href="https://ucop.edu/research-initiatives/programs/lab-fees/lfrp-grad-fellows.html" target="_blank">UC-National Lab In-Residence Graduate Fellowship</a>.
+    - title: Graduate Student Researcher
+      institution: University of California, Davis
+      year: 2016- 2022
       description:
+        - A graduate student research in Professor Richard Scalettar's research group. My work focused on the development and application of quantum Monte Carlo methods to simulating model Hamiltonians describing electron-phonon interactions.
+    - title: Associate Data Scientist
+      institution: Picarro, Inc.
+      year: 2014 - 2016
+      description:
+        - Member of R&D team developing algorithms to detect and attribute methane pipline leaks in urban areas. Responsibilities focused on data-driven algorithm and software development.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
+- title: Open Source Software
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: <a href="https://github.com/SmoQySuite/SmoQyDQMC.jl.git" target="_blank">SmoQyDQMC.jl</a>
+      institution: <a href="https://github.com/SmoQySuite" target="_blank">SmoQySuite</a>
+      year: 2023 - present
+      description:
+        - Software package performing determinant quantum Monte Carlo simulations for Hubbard and electron-phonon models.
+        - <a href="https://juliapackages.com/packages/smoqydqmc" target="_blank">Registered Julia packaged.</a>
+        - <a href="https://smoqysuite.github.io/SmoQyDQMC.jl/stable/" target="_blank">Documentation link.</a>
+    - title: <a href="https://github.com/SmoQySuite/JDQMCFramework.jl.git" target="_blank">JDQMCFramework.jl</a>
+      institution: <a href="https://github.com/SmoQySuite" target="_blank">SmoQySuite</a>
+      year: 2022 - present
+      description:
+        - A utility package exporting core routines needed to implement a deterimant quantum Monte Carlo code.
+        - <a href="https://juliapackages.com/packages/jdqmcframework" target="_blank">Registered Julia packaged.</a>
+        - <a href="https://smoqysuite.github.io/JDQMCFramework.jl/stable/" target="_blank">Documentation link.</a>
+    - title: <a href="https://github.com/SmoQySuite/JDQMCMeasurements.jl.git" target="_blank">JDQMCMeasurements.jl</a>
+      institution: <a href="https://github.com/SmoQySuite" target="_blank">SmoQySuite</a>
+      year: 2022 - present
+      description:
+        - A utility package exporting routines for making a variety of correlation measurements in a determinant quantum Monte Carlo simulation.
+        - <a href="https://juliapackages.com/packages/jdqmcmeasurements" target="_blank">Registered Julia packaged.</a>
+        - <a href="https://smoqysuite.github.io/JDQMCMeasurements.jl/stable/" target="_blank">Documentation link.</a>
+    - title: <a href="https://github.com/cohensbw/StableLinearAlgebra.jl.git" target="_blank">StableLinearAlgebra.jl</a>
+      year: 2022 - present
+      description:
+        - A utility package exporting optimized numerical stablization routines required to implement a determinant quantum Monte Carlo code.
+        - <a href="https://juliapackages.com/packages/stablelinearalgebra" target="_blank">Registered Julia packaged.</a>
+        - <a href="https://smoqysuite.github.io/StableLinearAlgebra.jl/stable/" target="_blank">Documentation link.</a>
+    - title: <a href="https://github.com/cohensbw/Checkerboard.jl.git" target="_blank">Checkerboard.jl</a>
+      year: 2022 - present
+      description:
+        - A utility package exporting the checkerboard approximation for representing exponentiated kintetic energy matrices associated with tight-binding models.
+        - <a href="https://juliapackages.com/packages/checkerboard" target="_blank">Registered Julia packaged.</a>
+        - <a href="https://smoqysuite.github.io/Checkerboard.jl/stable/" target="_blank">Documentation link.</a>
+    - title: <a href="https://github.com/cohensbw/MuTuner.jl.git" target="_blank">MuTuner.jl</a>
+      year: 2022 - present
+      description:
+        - A utility package export the algorithm introduced in <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.105.045311" target="_blank">Phys. Rev. E 105, 045311 </a> for dynamically tuning the chemical potential during a grand canonical Monte Carlo simulation in order to achieve a target particle density.
+        - <a href="https://juliapackages.com/packages/mutuner" target="_blank">Registered Julia packaged.</a>
+        - <a href="https://smoqysuite.github.io/MuTuner.jl/stable/" target="_blank">Documentation link.</a>
+    - title: <a href="https://github.com/cohensbw/LatticeUtilities.jl.git" target="_blank">LatticeUtilities.jl</a>
+      year: 2022 - present
+      description:
+        - A lightweight utility package for representing arbitrary lattice geometries.
+        - <a href="https://juliapackages.com/packages/latticeutilities" target="_blank">Registered Julia packaged.</a>
+        - <a href="https://smoqysuite.github.io/LatticeUtilities.jl/stable/" target="_blank">Documentation link.</a>
+
+- title: Patents
+  type: time_table
+  contents:
+    - title: <a href="https://patents.justia.com/patent/10962437" target="_blank">Aggregate leak indicator display systems and methods</a>"
+      year: 2021
+      institution: Picarro, Inc.
+      description:
+        - "US Patent Number: 10962437"
+        - "Inventors: Anders Nottrott, Sean MacMullin, Sze M. Tan, Benjamin Cohen-Stead, Chris W. Rella"
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - title: <a href="https://ucop.edu/research-initiatives/programs/lab-fees/lfrp-grad-fellows.html" target="_blank">UC-National Lab In-Residence Graduate Fellowship</a>
+      year: 2020-2022
+      intitution: Los Alamos National Laboratory
+      description:
+        - "Project: Langevin Methods for Quantum Electron-Phonon Simulations"
+        - "Mentor: Dr. Kipton Barros"

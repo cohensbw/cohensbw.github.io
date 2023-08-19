@@ -1,84 +1,272 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{tanjaroon2023comparative,
+  title={A comparative study of the superconductivity in the Holstein and optical Su-Schrieffer-Heeger models},
+  author={Tanjaroon Ly, Andy and Cohen-Stead, Benjamin and Malkaruge Costa, Sohan and Johnston, Steven},
+  journal={arXiv e-prints},
+  pages={arXiv--2307},
+  year={2023},
+  keywords={paper},
+  arxiv={2307.10809},
+  doi={10.48550/arXiv.2307.10809},
+  abstract={
+    Theoretical studies suggest that Su-Schrieffer-Heeger-like electron-phonon (e-ph) interactions can
+    mediate high-temperature bipolaronic superconductivity that is robust against repulsive electronelectron interactions.
+    Here we present a comparative analysis of the pairing and competing
+    charge/bond correlations in the two-dimensional Holstein and optical Su-Schrieffer-Heeger (SSH)
+    models using numerically exact determinant quantum Monte Carlo. We find that the SSH interactions support light bipolarons
+    and strong superconducting correlations out to relatively large values
+    of the e-ph coupling $\lambda$ and densities near half-filling, while the Holstein interaction does not due
+    to the formation of heavy bipolarons and competing charge-density-wave order. We further find
+    that the Holstein and SSH models have comparable pairing correlations in the weak coupling limit
+    for dilute carrier concentrations, where competing orders and polaronic effects are absent. These
+    results support the proposal that SSH (bi)polarons can support superconductivity to larger values
+    of $\lambda$ in comparison to the Holstein polaron, but that the resulting $T_c$ gains are small in the weak
+    coupling limit. We also find that the SSH model's pairing correlations are suppressed after including
+    a weak on-site Hubbard repulsion. These results have important implications for identifying and
+    engineering bipolaronic superconductivity.
+  }
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{malkaruge2023comparative,
+  title={A comparative determinant quantum Monte Carlo study of the acoustic and optical variants of the Su-Schrieffer-Heeger model},
+  author={Malkaruge Costa, Sohan and Cohen-Stead, Benjamin and Tanjaroon Ly, Andy and Neuhaus, James and Johnston, Steven},
+  journal={arXiv e-prints},
+  pages={arXiv--2307},
+  year={2023},
+  keywords={paper},
+  arxiv={2307.10058},
+  doi={10.48550/arXiv.2307.10058},
+  abstract={
+    We compare the acoustic Su-Schrieffer-Heeger (SSH) model with two of its optical variants where
+    the phonons are defined on either on the sites or bonds of the system. First, we discuss how to make
+    fair comparisons between these models in any dimension by ensuring their dimensionless coupling
+    $\lambda$ and relevant phonon energies are the same. We then use determinant quantum Monte Carlo to
+    perform non-perturbative and sign-problem-free simulations of all three models on one-dimensional
+    chains at and away from half-filling. By comparing the results obtained from each model, we
+    demonstrate that the optical and acoustic models produce near identical results within error bars for
+    suitably chosen phonon energies and $\lambda$ at half-filling. In contrast, the bond model has quantitatively
+    different behavior due to its coupling to the $q = 0$ phonon mode. These differences also manifest in
+    the total length of the chain, which shrinks for the bond model but not for the acoustic and optical
+    models when $\lambda \ne 0$. Our results have important implications for quantum Monte Carlo modeling of
+    SSH-like interactions, where these models are sometimes regarded as being interchangeable.
+  }
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@article{PhysRevE.107.055301,
+  title = {Flexible class of exact Hubbard-Stratonovich transformations},
+  author = {Karakuzu, Seher and Cohen-Stead, Benjamin and Batista, Cristian D. and Johnston, Steven and Barros, Kipton},
+  journal = {Phys. Rev. E},
+  volume = {107},
+  issue = {5},
+  pages = {055301},
+  numpages = {8},
+  year = {2023},
+  month = {May},
+  publisher = {American Physical Society},
+  keywords={paper},
+  website={https://journals.aps.org/pre/abstract/10.1103/PhysRevE.107.055301},
+  doi={10.1103/PhysRevE.107.055301},
+  arxiv={2211.05074},
+  abstract={
+    We consider a class of Hubbard-Stratonovich transformations suitable for treating Hubbard interactions in the context of quantum Monte Carlo simulations.
+    A tunable parameter $p$ allows usto continuously vary from a discrete Ising auxiliary field $(p = \infty)$ to a compact auxiliary field that
+    couples to electrons sinusoidally $(p = 0)$. In tests on the single-band square and triangular Hubbard models, we find that the severity of the sign problem
+    decreases systematically with increasing $p$. Selecting $p$ finite, however, enables continuous sampling methods like the Langevin or Hamiltonian Monte Carlo
+    methods. We explore the tradeoffs between various simulation methods through numerical benchmarks.
+  }
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{cohen2023hybrid,
+  title={A hybrid {Monte Carlo} study of bond-stretching electron--phonon interactions and charge order in {BaBiO$_3$}},
+  author={Cohen-Stead, Benjamin and Barros, Kipton and Scalettar, Richard and Johnston, Steven},
+  journal={npj Computational Materials},
+  volume={9},
+  number={1},
+  pages={40},
+  year={2023},
+  publisher={Nature Publishing Group UK London},
+  keywords={paper},
+  website={https://www.nature.com/articles/s41524-023-00998-6},
+  doi={10.1038/s41524-023-00998-6},
+  arxiv={2208.02339},
+  abstract={
+    The relationship between electron-phonon ($e$-ph) interactions and charge-density-wave (CDW) order in the bismuthate family of high-temperature superconductors
+    remains unresolved. We address this question using nonperturbative hybrid Monte Carlo calculations for the parent compound BaBiO$_3$. Our model includes the
+    Bi $6s$ and O $2p_\sigma$ orbitals and coupling to the Bi-O bond-stretching branch of optical phonons via modulations of the Bi-O hopping integral.
+    We simulate three-dimensional clusters of up to 4000 orbitals, with input model parameters taken from  ab initio electronic structure calculations and
+    a phonon energy $\hbar\Omega_0 = 60$~meV. Our results demonstrate that the coupling to the bond-stretching modes is sufficient to reproduce the CDW transition
+    in this system, despite a relatively small dimensionless coupling. We also find that the transition deviates from the weak-coupling Peierls' picture. This work
+    demonstrates that off-diagonal $e$-ph interactions in orbital space are vital in establishing the bismuthate phase diagram.
+  }
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{PhysRevE.105.065302,
+  title = {Fast and scalable quantum {Monte Carlo} simulations of electron-phonon models},
+  author = {Cohen-Stead, Benjamin and Bradley, Owen and Miles, Cole and Batrouni, George and Scalettar, Richard and Barros, Kipton},
+  journal = {Phys. Rev. E},
+  volume = {105},
+  issue = {6},
+  pages = {065302},
+  numpages = {22},
+  year = {2022},
+  month = {Jun},
+  publisher = {American Physical Society},
+  keywords={paper},
+  website={https://journals.aps.org/pre/abstract/10.1103/PhysRevE.105.065302},
+  doi={10.1103/PhysRevE.105.065302},
+  arxiv={2203.01291},
+  abstract={
+    We introduce methodologies for highly scalable quantum Monte Carlo simulations of electron-phonon models, and report benchmark results for the Holstein model
+    on the square lattice. The determinant quantum Monte Carlo (DQMC) method is a widely used tool for simulating simple electron-phonon models at finite temperatures,
+    but incurs a computational cost that scales cubically with system size. Alternatively, near-linear scaling with system size can be achieved with the
+    hybrid Monte Carlo (HMC) method and an integral representation of the Fermion determinant. Here, we introduce a collection of methodologies that make such
+    simulations even faster. To combat "stiffness" arising from the bosonic action, we review how Fourier acceleration can be combined with time-step splitting.
+    To overcome phonon sampling barriers associated with strongly-bound bipolaron formation, we design global Monte Carlo updates that approximately respect
+    particle-hole symmetry. To accelerate the iterative linear solver, we introduce a preconditioner that becomes exact in the adiabatic limit of infinite atomic mass.
+    Finally, we demonstrate how stochastic measurements can be accelerated using fast Fourier transforms. These methods are all complementary and, combined,
+    may produce multiple orders of magnitude speedup, depending on model details.
+  }
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
+@article{cohen2020langevin,
+  title={Langevin simulations of the half-filled cubic {Holstein} model},
+  author={Cohen-Stead, Benjamin and Barros, Kipton and Meng, Zi Yang and Chen, Chuang and Scalettar, RT and Batrouni, GG},
+  journal={Physical Review B},
+  volume={102},
+  number={16},
+  pages={161108},
+  year={2020},
+  publisher={APS},
+  keywords={paper},
+  website={https://journals.aps.org/prb/abstract/10.1103/PhysRevB.102.161108},
+  doi={10.1103/PhysRevB.102.161108},
+  arxiv={2005.00918},
+  abstract={
+    Over the past several years, reliable Quantum Monte Carlo results for the charge density wave transition temperature $T_{cdw}$ of the half-filled
+    two dimensional Holstein model in square and honeycomb lattices have become available for the first time.
+    Exploiting the further development of numerical methodology, here we present results in three dimensions, which are made possible through the
+    use of Langevin evolution of the quantum phonon degrees of freedom. In addition to determining $T_{cdw}$ from the scaling of the charge correlations,
+    we also examine the nature of charge order at general wave vectors for different temperatures, couplings, and phonon frequencies, and the behavior
+    of the spectral function and specific heat.
+  }
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{cohen2019effect,
+  title={Effect of strain on charge density wave order in the {Holstein} model},
+  author={Cohen-Stead, Benjami and Costa, NC and Khatami, Ehsan and Scalettar, RT},
+  journal={Physical Review B},
+  volume={100},
+  number={4},
+  pages={045125},
+  year={2019},
+  publisher={APS},
+  keywords={paper},
+  website={https://journals.aps.org/prb/abstract/10.1103/PhysRevB.100.045125},
+  doi={10.1103/PhysRevB.100.045125},
+  arxiv={1905.05831},
+  abstract={
+    We investigate charge ordering in the Holstein model in the presence of anisotropic hopping, $t_x, t_y = 1−\delta, 1+\delta$, as a model of the effect of strain on charge density wave (CDW) materials.
+    Using Quantum Monte Carlo simulations, we show that the CDW transition temperature is relatively insensitive to moderate anisotropy $\delta \leq 0.3$, but begins to decrease more rapidly at $\delta \geq 0.4$.
+    However, the density correlations, as well as the kinetic energies parallel and perpendicular to the compressional axis, change significantly for moderate $\delta$.
+    Accompanying mean-field theory calculations show a similar qualitative structure, with the transition temperature relatively constant at small δ and a more rapid decrease for larger strains.
+    We also obtain the density of states $N(\omega)$, which provides clear signal of the charge ordering transition at large strain, where finite size scaling of the charge structure factor is extremely difficult
+    because of the small value of the order parameter.
+  }
+}
+
+@article{bradley2023charge,
+  title={Charge order in the kagome lattice {Holstein} model: a hybrid {Monte Carlo} study},
+  author={Bradley, Owen and Cohen-Stead, Benjamin and Johnston, Steven and Barros, Kipton and Scalettar, Richard T},
+  journal={npj Quantum Materials},
+  volume={8},
+  number={1},
+  pages={21},
+  year={2023},
+  publisher={Nature Publishing Group UK London},
+  keywords={paper},
+  website={https://www.nature.com/articles/s41535-023-00553-y},
+  doi={10.1038/s41535-023-00553-y},
+  arxiv={2212.05714},
+  abstract={
+    The Holstein model is a paradigmatic description of the electron-phonon interaction, in which electrons couple to local dispersionless phonon modes,
+    independent of momentum. The model has been shown to host a variety of ordered ground states such as charge density wave (CDW) order and superconductivity
+    on several geometries, including the square, honeycomb, and Lieb lattices. In this work, we study CDW formation in the Holstein model on the kagome lattice,
+    using a recently developed hybrid Monte Carlo simulation method. We present evidence for CDW order at an average electron filling of
+    $\langle n \rangle = 2/3$ per site, with an ordering wavevector at the $K$-points of the Brillouin zone. We estimate a phase transition occurring at
+    $T_{c} \approx t/18$, where $t$ is the nearest-neighbor hopping parameter. Our simulations find no signature of CDW order at other electron fillings or
+    ordering momenta for temperatures $T \geq t/20$.
+  }
+}
+
+@article{dee2023charge,
+  title={Charge correlations suppress unconventional pairing in the {Holstein} model},
+  author={Dee, Philip M and Cohen-Stead, Benjamin and Johnston, Steven and Hirschfeld, PJ},
+  journal={Physical Review B},
+  volume={107},
+  number={10},
+  pages={104503},
+  year={2023},
+  publisher={APS},
+  keywords={paper},
+  website={https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.104503},
+  doi={10.1103/PhysRevB.107.104503},
+  arxiv={2301.00480},
+  abstract={
+    In a recent work by Schrodi et al. [Phys. Rev. B 104, L140506 (2021)], the authors find an unconventional superconducting state with a
+    sign-changing order parameter using the Migdal-Eliashberg theory, including the first vertex correction.
+    This unconventional solution arises despite using an isotropic bare electron-phonon coupling in the Hamiltonian.
+    We examine this claim using hybrid quantum Monte Carlo for a single-band Holstein model with a cuprate-like noninteracting band structure
+    and identical parameters to Schrodi et al. Our Monte Carlo results for these parameters suggest that unconventional pairing correlations do not
+    exceed their noninteracting values at any carrier concentration we have checked.
+    Instead, strong charge-density-wave correlations persist at the lowest accessible temperatures for dilute and nearly half-filled bands.
+    Lastly, we present arguments for how vertex-corrected Migdal-Eliashberg calculation schemes can lead to uncontrolled results in the presence of Fermi surface nesting.
+  }
+}
+
+@article{PhysRevE.105.045311,
+  title = {Dynamical tuning of the chemical potential to achieve a target particle number in grand canonical {Monte Carlo} simulations},
+  author = {Miles, Cole and Cohen-Stead, Benjamin and Bradley, Owen and Johnston, Steven and Scalettar, Richard and Barros, Kipton},
+  journal = {Phys. Rev. E},
+  volume = {105},
+  issue = {4},
+  pages = {045311},
+  numpages = {9},
+  year = {2022},
+  month = {Apr},
+  publisher = {American Physical Society},
+  keywords={paper},
+  website={https://journals.aps.org/pre/abstract/10.1103/PhysRevE.105.045311},
+  doi={10.1103/PhysRevE.105.045311},
+  arxiv={2201.01296},
+  code={https://github.com/cohensbw/MuTuner.jl.git},
+  abstract={
+    We present a method to facilitate Monte Carlo simulations in the grand canonical ensemble given a target mean particle number.
+    The method imposes a fictitious dynamics on the chemical potential, to be run concurrently with the Monte Carlo sampling of the physical system.
+    Corrections to the chemical potential are made according to time-averaged estimates of the mean and variance of the particle number,
+    with the latter being proportional to thermodynamic compressibility.
+    We perform a variety of tests, and in all cases find rapid convergence of the chemical potential -- inexactness of the tuning algorithm contributes
+    only a minor part of the total measurement error for realistic simulations.
+  }
+}
+
+@article{paleari2021quantum,
+  title={Quantum {Monte Carlo} study of an anharmonic {Holstein} model},
+  author={Paleari, G and H{\'e}bert, F and Cohen-Stead, B and Barros, K and Scalettar, Richard T and Batrouni, George Ghassan},
+  journal={Physical Review B},
+  volume={103},
+  number={19},
+  pages={195117},
+  year={2021},
+  publisher={APS},
+  keywords={paper},
+  website={https://journals.aps.org/prb/abstract/10.1103/PhysRevB.103.195117},
+  doi={10.1103/PhysRevB.103.195117},
+  arxiv={2101.08285},
+  abstract={
+    We study the effects of anharmonicity on the physics of the Holstein model, which describes the coupling of itinerant fermions and localized quantum phonons,
+    by introducing a quartic term in the phonon potential energy.
+    We find that the presence of this anharmonic term reduces the extent of the charge density wave phase (CDW) at half-filling
+    as well as the transition temperature to this phase.
+    Doping away from half-filling, we observe a first order phase transition between the CDW and a homogeneous phase which is also present in the harmonic model.
+    In addition, we study the evolution of the superconducting susceptibility in the doped region and show that anharmonicity can enhance the superconducting response.
+  }
 }
