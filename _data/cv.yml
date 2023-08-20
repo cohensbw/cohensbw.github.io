@@ -38,12 +38,12 @@
       institution: University of California, Davis
       year: 2016- 2022
       description:
-        - A graduate student research in Professor Richard Scalettar's research group. My work focused on the development and application of quantum Monte Carlo methods to simulating model Hamiltonians describing electron-phonon interactions.
+        - Graduate student researcher in Professor Richard Scalettar's research group. My work focused on the development and application of quantum Monte Carlo methods for simulating model Hamiltonians describing electron-phonon interactions.
     - title: Associate Data Scientist
       institution: Picarro, Inc.
       year: 2014 - 2016
       description:
-        - Member of R&D team developing algorithms to detect and attribute methane pipline leaks in urban areas. Responsibilities focused on data-driven algorithm and software development.
+        - Member of R&D team developing detection and attribution algorithms for methane pipline leaks in urban areas. Responsibilities focused on data-driven algorithm and software development.
 
 - title: Open Source Software
   type: time_table
