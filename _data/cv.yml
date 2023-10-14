@@ -69,30 +69,33 @@
         - A utility package exporting routines for making a variety of correlation measurements in a determinant quantum Monte Carlo simulation.
         - <a href="https://juliapackages.com/packages/jdqmcmeasurements" target="_blank">Registered Julia packaged.</a>
         - <a href="https://smoqysuite.github.io/JDQMCMeasurements.jl/stable/" target="_blank">Documentation link.</a>
-    - title: <a href="https://github.com/cohensbw/StableLinearAlgebra.jl.git" target="_blank">StableLinearAlgebra.jl</a>
+    - title: <a href="https://github.com/SmoQySuite/StableLinearAlgebra.jl.git" target="_blank">StableLinearAlgebra.jl</a>
+      institution: <a href="https://github.com/SmoQySuite" target="_blank">SmoQySuite</a>
       year: 2022 - present
       description:
         - A utility package exporting optimized numerical stablization routines required to implement a determinant quantum Monte Carlo code.
         - <a href="https://juliapackages.com/packages/stablelinearalgebra" target="_blank">Registered Julia packaged.</a>
-        - <a href="https://cohensbw.github.io/StableLinearAlgebra.jl/stable/" target="_blank">Documentation link.</a>
-    - title: <a href="https://github.com/cohensbw/Checkerboard.jl.git" target="_blank">Checkerboard.jl</a>
+        - <a href="https://smoqysuite.github.io/StableLinearAlgebra.jl/stable/" target="_blank">Documentation link.</a>
+    - title: <a href="https://github.com/SmoQySuite/Checkerboard.jl.git" target="_blank">Checkerboard.jl</a>
+      institution: <a href="https://github.com/SmoQySuite" target="_blank">SmoQySuite</a>
       year: 2022 - present
       description:
         - A utility package exporting the checkerboard approximation for representing exponentiated kintetic energy matrices associated with tight-binding models.
         - <a href="https://juliapackages.com/packages/checkerboard" target="_blank">Registered Julia packaged.</a>
-        - <a href="https://cohensbw.github.io/Checkerboard.jl/stable/" target="_blank">Documentation link.</a>
+        - <a href="https://smoqysuite.github.io/Checkerboard.jl/stable/" target="_blank">Documentation link.</a>
+    - title: <a href="https://github.com/SmoQySuite/LatticeUtilities.jl.git" target="_blank">LatticeUtilities.jl</a>
+      institution: <a href="https://github.com/SmoQySuite" target="_blank">SmoQySuite</a>
+      year: 2022 - present
+      description:
+        - A lightweight utility package for representing arbitrary lattice geometries.
+        - <a href="https://juliapackages.com/packages/latticeutilities" target="_blank">Registered Julia packaged.</a>
+        - <a href="https://smoqysuite.github.io/LatticeUtilities.jl/stable/" target="_blank">Documentation link.</a>
     - title: <a href="https://github.com/cohensbw/MuTuner.jl.git" target="_blank">MuTuner.jl</a>
       year: 2022 - present
       description:
         - A utility package export the algorithm introduced in <a href="https://journals.aps.org/pre/abstract/10.1103/PhysRevE.105.045311" target="_blank">Phys. Rev. E 105, 045311 </a> for dynamically tuning the chemical potential during a grand canonical Monte Carlo simulation in order to achieve a target particle density.
         - <a href="https://juliapackages.com/packages/mutuner" target="_blank">Registered Julia packaged.</a>
         - <a href="https://cohensbw.github.io/MuTuner.jl/stable/" target="_blank">Documentation link.</a>
-    - title: <a href="https://github.com/cohensbw/LatticeUtilities.jl.git" target="_blank">LatticeUtilities.jl</a>
-      year: 2022 - present
-      description:
-        - A lightweight utility package for representing arbitrary lattice geometries.
-        - <a href="https://juliapackages.com/packages/latticeutilities" target="_blank">Registered Julia packaged.</a>
-        - <a href="https://cohensbw.github.io/LatticeUtilities.jl/stable/" target="_blank">Documentation link.</a>
 
 - title: Patents
   type: time_table
