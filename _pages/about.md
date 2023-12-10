@@ -6,7 +6,7 @@ subtitle: Postdoctoral Researcher @ The University of Tennessee, Knoxville
 
 profile:
   align: right
-  image: headshot.jpg
+  image: portrait-174.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Office 212 @ <a href='https://research.utk.edu/iamm/'>IAMM</a></p>
