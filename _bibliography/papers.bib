@@ -1,36 +1,17 @@
-@Article{SmoQyDQMC.jl,
-	title={{SmoQyDQMC.jl: A flexible implementation of determinant quantum Monte Carlo for Hubbard and electron-phonon interactions}},
-	author={Benjamin Cohen-Stead and Sohan Malkaruge Costa and James Neuhaus and Andy Tanjaroon Ly and Yutan Zhang and Richard Scalettar and Kipton Barros and Steven Johnston},
-	journal={SciPost Phys. Codebases},
-	pages={29},
-	year={2024},
-	publisher={SciPost},
-	doi={10.21468/SciPostPhysCodeb.29},
-	url={https://scipost.org/10.21468/SciPostPhysCodeb.29},
-  website={https://scipost.org/10.21468/SciPostPhysCodeb.29},
-  arxiv={2311.09395},
-  abstract={
-    We introduce the SmoQyDQMC.jl package, a Julia implementation of the determinant quantum Monte Carlo algorithm.
-    SmoQyDQMC.jl supports generalized tight-binding Hamiltonians with on-site Hubbard and generalized electron-phonon (e-ph) interactions,
-    including non-linear e-ph coupling and anharmonic lattice potentials. Our implementation uses hybrid Monte Carlo methods with
-    exact forces for sampling the phonon fields, enabling efficient simulation of low-energy phonon branches, including acoustic phonons.
-    The SmoQyDQMC.jl package also uses a flexible scripting interface, allowing users to adapt it to different workflows and interface with
-    other software packages in the Julia ecosystem. The code for this package can be downloaded from our GitHub repository
-    at https://github.com/SmoQySuite/SmoQyDQMC.jl or installed using the Julia package manager.
-    The online documentation, including examples, can be obtained from our document page
-    at https://smoqysuite.github.io/SmoQyDQMC.jl/stable/.
-  }
-}
-
-@article{naamneh2024persistence,
-  title={Persistence of small polarons into the superconducting phase of Ba_(1-x) K_x Bi O_3},
-  author={Naamneh, Muntaser and Paris, Eugenio and McNally, Daniel and Tseng, Yi and Pudelko, Wojciech R and Gawryluk, Dariusz J and Shamblin, J and OQuinn, Eric and Cohen-Stead, Benjamin and Shi, Ming and others},
-  journal={arXiv preprint arXiv:2408.00401},
-  year={2024},
-  doi={10.48550/arXiv.2408.00401},
-  url={https://arxiv.org/abs/2408.00401},
-  website={https://arxiv.org/abs/2408.00401},
-  arxiv={2408.00401},
+@article{Naamneh2025Persistence,
+  title = {Persistence of small polarons into the superconducting doping range of ${\mathrm{Ba}}_{1\ensuremath{-}x}{\mathrm{K}}_{x}{\mathrm{BiO}}_{3}$},
+  author = {Naamneh, Muntaser and O'Quinn, Eric C. and Paris, Eugenio and McNally, Daniel and Tseng, Yi and Pude\l{}ko, Wojciech R. and Gawryluk, Dariusz J. and Shamblin, Jacob and Cohen-Stead, Benjamin and Shi, Ming and Radovic, Milan and Lang, Maik K. and Schmitt, Thorsten and Johnston, Steven and Plumb, Nicholas C.},
+  journal = {Phys. Rev. Res.},
+  volume = {7},
+  issue = {4},
+  pages = {043082},
+  numpages = {13},
+  year = {2025},
+  month = {Oct},
+  publisher = {American Physical Society},
+  doi = {10.1103/s3p1-cy1s},
+  url = {https://link.aps.org/doi/10.1103/s3p1-cy1s},
+  website = {https://link.aps.org/doi/10.1103/s3p1-cy1s},
   abstract={
     Bipolaronic superconductivity is an exotic pairing mechanism proposed for materials like Ba_(1-x) K_x Bi O_3 (BKBO);
     however, conclusive experimental evidence for a (bi)polaron metallic state in this material remains elusive.
@@ -41,6 +22,93 @@
     Comparisons with exact diagonalization and determinant quantum Monte Carlo calculations further support this conclusion.
     Our results provide compelling evidence that BKBO's metallic phase hosts a liquid of small (bi)polarons derived from local breathing distortions
     of the lattice, with implications for understanding the low-temperature superconducting instability
+  }
+}
+
+@article{Zhang2025Optimizing,
+  title = {Optimizing the critical temperature and superfluid density of a metal-superconductor bilayer},
+  author = {Zhang, Yutan and Dee, Philip M. and Cohen-Stead, Benjamin and Maier, Thomas A. and Johnston, Steven and Scalettar, Richard},
+  journal = {Phys. Rev. B},
+  volume = {112},
+  issue = {6},
+  pages = {064510},
+  numpages = {9},
+  year = {2025},
+  month = {Aug},
+  publisher = {American Physical Society},
+  doi = {10.1103/lcgr-bqcv},
+  url = {https://link.aps.org/doi/10.1103/lcgr-bqcv},
+  website = {https://link.aps.org/doi/10.1103/lcgr-bqcv},
+  abstract={
+    A promising path to realizing higher superconducting transition temperatures Tc is the strategic engineering of artificial heterostructures.
+    For example, quantum materials could, in principle, be coupled with other materials to produce a more robust superconducting state.
+    In this work, we add numerical support to the hypothesis that a strongly interacting superconductor weakened by phase fluctuations can boost its Tc by hybridizing the system with a metal.
+    Using determinant quantum Monte Carlo, we simulate a two-dimensional bilayer composed of an attractive Hubbard model and a metallic layer in two regimes of the interaction strength -|U|.
+    In the strongly interacting regime, we find that increasing the interlayer hybridization 𝑡⊥ results in a nonmonotonic enhancement of Tc, with an optimal value comparable to the maximum Tc observed in the single-layer attractive Hubbard model, confirming trends inferred from other approaches.
+    In the intermediate coupling regime, when -|U| is close to the value associated with the maximum Tc of the single-layer model, increasing t⏊ tends to decrease Tc, implying that the correlated layer was already optimally tuned.
+    Importantly, we demonstrate that the mechanism behind these trends is related to enhancement in the superfluid stiffness, as was initially proposed by Kivelson [Phys. B: Condens. Matter 318, 61 (2002)].
+  }
+}
+
+@article{Tanjaroon2025Antiferromagnetic,
+  title = {Antiferromagnetic and bond-order-wave phases in the half-filled two-dimensional optical Su-Schrieffer-Heeger-Hubbard model},
+  author = {Tanjaroon Ly, Andy and Cohen-Stead, Benjamin and Johnston, Steven},
+  journal = {Phys. Rev. B},
+  volume = {111},
+  issue = {24},
+  pages = {245138},
+  numpages = {7},
+  year = {2025},
+  month = {Jun},
+  publisher = {American Physical Society},
+  doi = {10.1103/2bnf-tmtc},
+  url = {https://link.aps.org/doi/10.1103/2bnf-tmtc},
+  website = {https://link.aps.org/doi/10.1103/2bnf-tmtc},
+  abstract = {
+    Electron-phonon (e-ph) interactions arise in many strongly correlated quantum materials from the modulation of the nearest-neighbor hopping integrals, as in the celebrated Su-Schrieffer-Heeger (SSH) model.
+    Nevertheless, relatively few nonperturbative studies of correlated SSH models have been conducted in dimensions greater than one, and those that have been done have primarily focused on bond models, where generalized displacements independently modulate each hopping integral.
+    We conducted a sign-problem free determinant quantum Monte Carlo study of the optical SSH-Hubbard model on a two-dimensional square lattice, where site-centered phonon modes simultaneously modulate pairs of nearest-neighbor hopping integrals.
+    We report the model's low-temperature phase diagram in the challenging adiabatic regime.
+    It exhibits insulating antiferromagnetic Mott and bond-order-wave (BOW) phases with a narrow region of coexistence between them. We also find that a critical e-ph coupling is required to stabilize the BOW phase in the small U limit.
+    Lastly, in stark contrast to recent findings for the model's bond variant, we find no evidence for a long-range antiferromagnetism in the pure (U/t=0) optical SSH model.
+  }
+}
+
+@article{Mai2024Fluctuating,
+  title={Fluctuating charge-density-wave correlations in the three-band Hubbard model},
+  author={Mai, Peizhi and Cohen-Stead, Benjamin and Maier, Thomas A and Johnston, Steven},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={121},
+  number={50},
+  pages={e2408717121},
+  year={2024},
+  publisher={National Academy of Sciences},
+  website={https://www.pnas.org/doi/10.1073/pnas.2408717121},
+  abstract={
+    The high-temperature superconducting cuprates host unidirectional spin- and charge-density-wave orders that can intertwine with
+    superconductivity in non-trivial ways. While the charge components of these stripes have now been observed in nearly all cuprate
+    families, their detailed evolution with doping varies across different materials and at high and low temperatures.
+    We address this problem using non-perturbative determinant quantum Monte Carlo calculations for the three-band Hubbard model.
+    Using an efficient implementation, we can resolve the model's fluctuating spin and charge modulations and map their evolution
+    as a function of the charge transfer energy and doping. We find that the incommensurability of the charge modulations is decoupled
+    from the spin modulations and decreases with hole doping, consistent with experimental measurements at high temperatures.
+    These findings support the proposal that the high-temperature charge correlations are distinct from the intertwined stripe order
+    observed at low-temperature and in the single-band Hubbard model.
+  }
+}
+
+@article{Neuhaus2024SmoQyDEAC,
+  title={SmoQyDEAC.jl: A differential evolution package for the analytic continuation of imaginary time correlation functions},
+  author={Neuhaus, James and Nichols, Nathan S and Banerjee, Debshikha and Cohen-Stead, Benjamin and Maier, Thomas and Del Maestro, Adrian and Johnston, Steven},
+  journal={SciPost Physics Codebases},
+  pages={039},
+  year={2024},
+  abstract={
+    We introduce the SmoQyDEAC.jl package, a Julia implementation of the Differential Evolution Analytic Continuation (DEAC) algorithm
+    [N. S. Nichols et al., Phys. Rev. E 106, 025312 (2022)] for analytically continuing noisy imaginary time correlation functions to the real frequency axis.
+    Our implementation supports fermionic and bosonic correlation functions on either the imaginary time or Matsubara frequency axes, and treatment of the
+    covariance error in the input data. This paper presents an overview of the DEAC algorithm and the features implemented in the SmoQyDEAC.jl.
+    It also provides detailed benchmarks of the package's output against the popular maximum entropy and stochastic analytic continuation methods.
   }
 }
 
@@ -69,43 +137,27 @@
   }
 }
 
-@article{SmoQyDEAC.jl,
-  title={SmoQyDEAC. jl: A differential evolution package for the analytic continuation of imaginary time correlation functions},
-  author={Neuhaus, James and Nichols, Nathan S and Banerjee, Debshikha and Cohen-Stead, Benjamin and Maier, Thomas A and Del Maestro, Adrian and Johnston, Steven},
-  journal={arXiv preprint arXiv:2407.04568},
-  year={2024},
-  journal={arXiv:2407.04568},
-  doi={10.48550/arXiv.2407.04568},
-  website={https://arxiv.org/abs/2407.04568},
-  arxiv={2407.04568},
-  abstract={
-    We introduce the SmoQyDEAC.jl package, a Julia implementation of the Differential Evolution Analytic Continuation (DEAC) algorithm
-    [N. S. Nichols et al., Phys. Rev. E 106, 025312 (2022)] for analytically continuing noisy imaginary time correlation functions to the real frequency axis.
-    Our implementation supports fermionic and bosonic correlation functions on either the imaginary time or Matsubara frequency axes, and treatment of the
-    covariance error in the input data. This paper presents an overview of the DEAC algorithm and the features implemented in the SmoQyDEAC.jl.
-    It also provides detailed benchmarks of the package's output against the popular maximum entropy and stochastic analytic continuation methods.
-  }
-}
 
-@article{Mai2024Fluctuating,
-  title={Fluctuating charge-density-wave correlations in the three-band Hubbard model}, 
-  author={P. Mai and B. Cohen-Stead and T. A. Maier and S. Johnston},
-  year={2024},
-  journal={arXiv:2405.13164},
-  url={https://arxiv.org/abs/2405.13164},
-  doi={10.48550/arXiv.2405.13164},
-  website={https://arxiv.org/abs/2405.13164},
-  arxiv={2405.13164},
+@article{CohenStead2024SmoQyDQMC,
+	title={{SmoQyDQMC.jl: A flexible implementation of determinant quantum Monte Carlo for Hubbard and electron-phonon interactions}},
+	author={Benjamin Cohen-Stead and Sohan Malkaruge Costa and James Neuhaus and Andy Tanjaroon Ly and Yutan Zhang and Richard Scalettar and Kipton Barros and Steven Johnston},
+	journal={SciPost Phys. Codebases},
+	pages={29},
+	year={2024},
+	publisher={SciPost},
+	doi={10.21468/SciPostPhysCodeb.29},
+	url={https://scipost.org/10.21468/SciPostPhysCodeb.29},
+  website={https://scipost.org/10.21468/SciPostPhysCodeb.29},
+  arxiv={2311.09395},
   abstract={
-    The high-temperature superconducting cuprates host unidirectional spin- and charge-density-wave orders that can intertwine with
-    superconductivity in non-trivial ways. While the charge components of these stripes have now been observed in nearly all cuprate
-    families, their detailed evolution with doping varies across different materials and at high and low temperatures.
-    We address this problem using non-perturbative determinant quantum Monte Carlo calculations for the three-band Hubbard model.
-    Using an efficient implementation, we can resolve the model's fluctuating spin and charge modulations and map their evolution
-    as a function of the charge transfer energy and doping. We find that the incommensurability of the charge modulations is decoupled
-    from the spin modulations and decreases with hole doping, consistent with experimental measurements at high temperatures.
-    These findings support the proposal that the high-temperature charge correlations are distinct from the intertwined stripe order
-    observed at low-temperature and in the single-band Hubbard model.
+    We introduce the SmoQyDQMC.jl package, a Julia implementation of the determinant quantum Monte Carlo algorithm.
+    SmoQyDQMC.jl supports generalized tight-binding Hamiltonians with on-site Hubbard and generalized electron-phonon (e-ph) interactions,
+    including non-linear e-ph coupling and anharmonic lattice potentials. Our implementation uses hybrid Monte Carlo methods with
+    exact forces for sampling the phonon fields, enabling simulation of low-energy phonon branches, including acoustic phonons.
+    The SmoQyDQMC.jl package also uses a flexible scripting interface, allowing users to adapt it to different workflows and interface with
+    other software packages in the Julia ecosystem. The code for this package can be downloaded from our GitHub repository
+    at https://github.com/SmoQySuite/SmoQyDQMC.jl or installed using the Julia package manager.
+    The online documentation, including examples, can be obtained from our document pageat https://smoqysuite.github.io/SmoQyDQMC.jl/stable/.
   }
 }
 
@@ -131,12 +183,12 @@
     charge/bond correlations in the two-dimensional Holstein and optical Su-Schrieffer-Heeger (SSH)
     models using numerically exact determinant quantum Monte Carlo. We find that the SSH interactions support light bipolarons
     and strong superconducting correlations out to relatively large values
-    of the e-ph coupling $\lambda$ and densities near half-filling, while the Holstein interaction does not due
+    of the e-ph coupling and densities near half-filling, while the Holstein interaction does not due
     to the formation of heavy bipolarons and competing charge-density-wave order. We further find
     that the Holstein and SSH models have comparable pairing correlations in the weak coupling limit
     for dilute carrier concentrations, where competing orders and polaronic effects are absent. These
     results support the proposal that SSH (bi)polarons can support superconductivity to larger values
-    of $\lambda$ in comparison to the Holstein polaron, but that the resulting $T_c$ gains are small in the weak
+    of the e-ph coupling in comparison to the Holstein polaron, but that the resulting Tc gains are small in the weak
     coupling limit. We also find that the SSH model's pairing correlations are suppressed after including
     a weak on-site Hubbard repulsion. These results have important implications for identifying and
     engineering bipolaronic superconductivity.
@@ -144,7 +196,7 @@
 }
 
 
-@article{PhysRevB.108.165138,
+@article{Costa2023Comparative,
   title = {Comparative determinant quantum Monte Carlo study of the acoustic and optical variants of the Su-Schrieffer-Heeger model},
   author = {Malkaruge Costa, Sohan and Cohen-Stead, Benjamin and Ly, Andy Tanjaroon and Neuhaus, James and Johnston, Steven},
   journal = {Phys. Rev. B},
@@ -175,7 +227,31 @@
   }
 }
 
-@article{PhysRevE.107.055301,
+@article{Bradley2023Charge,
+  title={Charge order in the kagome lattice {Holstein} model: a hybrid {Monte Carlo} study},
+  author={Bradley, Owen and Cohen-Stead, Benjamin and Johnston, Steven and Barros, Kipton and Scalettar, Richard T},
+  journal={npj Quantum Materials},
+  volume={8},
+  number={1},
+  pages={21},
+  year={2023},
+  publisher={Nature Publishing Group UK London},
+  keywords={paper},
+  website={https://www.nature.com/articles/s41535-023-00553-y},
+  doi={10.1038/s41535-023-00553-y},
+  arxiv={2212.05714},
+  abstract={
+    The Holstein model is a paradigmatic description of the electron-phonon interaction, in which electrons couple to local dispersionless phonon modes,
+    independent of momentum. The model has been shown to host a variety of ordered ground states such as charge density wave (CDW) order and superconductivity
+    on several geometries, including the square, honeycomb, and Lieb lattices. In this work, we study CDW formation in the Holstein model on the kagome lattice,
+    using a recently developed hybrid Monte Carlo simulation method. We present evidence for CDW order at an average electron filling of
+    $\langle n \rangle = 2/3$ per site, with an ordering wavevector at the $K$-points of the Brillouin zone. We estimate a phase transition occurring at
+    $T_{c} \approx t/18$, where $t$ is the nearest-neighbor hopping parameter. Our simulations find no signature of CDW order at other electron fillings or
+    ordering momenta for temperatures $T \geq t/20$.
+  }
+}
+
+@article{Karakuzu2023Flexible,
   title = {Flexible class of exact Hubbard-Stratonovich transformations},
   author = {Karakuzu, Seher and Cohen-Stead, Benjamin and Batista, Cristian D. and Johnston, Steven and Barros, Kipton},
   journal = {Phys. Rev. E},
@@ -199,7 +275,7 @@
   }
 }
 
-@article{cohen2023hybrid,
+@article{Cohen2023Hybrid,
   title={A hybrid {Monte Carlo} study of bond-stretching electron--phonon interactions and charge order in {BaBiO$_3$}},
   author={Cohen-Stead, Benjamin and Barros, Kipton and Scalettar, Richard and Johnston, Steven},
   journal={npj Computational Materials},
@@ -223,7 +299,32 @@
   }
 }
 
-@article{PhysRevE.105.065302,
+@article{Dee2023Charge,
+  title={Charge correlations suppress unconventional pairing in the {Holstein} model},
+  author={Dee, Philip M and Cohen-Stead, Benjamin and Johnston, Steven and Hirschfeld, PJ},
+  journal={Physical Review B},
+  volume={107},
+  number={10},
+  pages={104503},
+  year={2023},
+  publisher={APS},
+  keywords={paper},
+  website={https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.104503},
+  doi={10.1103/PhysRevB.107.104503},
+  arxiv={2301.00480},
+  abstract={
+    In a recent work by Schrodi et al. [Phys. Rev. B 104, L140506 (2021)], the authors find an unconventional superconducting state with a
+    sign-changing order parameter using the Migdal-Eliashberg theory, including the first vertex correction.
+    This unconventional solution arises despite using an isotropic bare electron-phonon coupling in the Hamiltonian.
+    We examine this claim using hybrid quantum Monte Carlo for a single-band Holstein model with a cuprate-like noninteracting band structure
+    and identical parameters to Schrodi et al. Our Monte Carlo results for these parameters suggest that unconventional pairing correlations do not
+    exceed their noninteracting values at any carrier concentration we have checked.
+    Instead, strong charge-density-wave correlations persist at the lowest accessible temperatures for dilute and nearly half-filled bands.
+    Lastly, we present arguments for how vertex-corrected Migdal-Eliashberg calculation schemes can lead to uncontrolled results in the presence of Fermi surface nesting.
+  }
+}
+
+@article{Cohen-Stead2022Fast,
   title = {Fast and scalable quantum {Monte Carlo} simulations of electron-phonon models},
   author = {Cohen-Stead, Benjamin and Bradley, Owen and Miles, Cole and Batrouni, George and Scalettar, Richard and Barros, Kipton},
   journal = {Phys. Rev. E},
@@ -251,102 +352,7 @@
   }
 }
 
-@article{cohen2020langevin,
-  title={Langevin simulations of the half-filled cubic {Holstein} model},
-  author={Cohen-Stead, Benjamin and Barros, Kipton and Meng, Zi Yang and Chen, Chuang and Scalettar, RT and Batrouni, GG},
-  journal={Physical Review B},
-  volume={102},
-  number={16},
-  pages={161108},
-  year={2020},
-  publisher={APS},
-  keywords={paper},
-  website={https://journals.aps.org/prb/abstract/10.1103/PhysRevB.102.161108},
-  doi={10.1103/PhysRevB.102.161108},
-  arxiv={2005.00918},
-  abstract={
-    Over the past several years, reliable Quantum Monte Carlo results for the charge density wave transition temperature $T_{cdw}$ of the half-filled
-    two dimensional Holstein model in square and honeycomb lattices have become available for the first time.
-    Exploiting the further development of numerical methodology, here we present results in three dimensions, which are made possible through the
-    use of Langevin evolution of the quantum phonon degrees of freedom. In addition to determining $T_{cdw}$ from the scaling of the charge correlations,
-    we also examine the nature of charge order at general wave vectors for different temperatures, couplings, and phonon frequencies, and the behavior
-    of the spectral function and specific heat.
-  }
-}
-
-@article{cohen2019effect,
-  title={Effect of strain on charge density wave order in the {Holstein} model},
-  author={Cohen-Stead, Benjami and Costa, NC and Khatami, Ehsan and Scalettar, RT},
-  journal={Physical Review B},
-  volume={100},
-  number={4},
-  pages={045125},
-  year={2019},
-  publisher={APS},
-  keywords={paper},
-  website={https://journals.aps.org/prb/abstract/10.1103/PhysRevB.100.045125},
-  doi={10.1103/PhysRevB.100.045125},
-  arxiv={1905.05831},
-  abstract={
-    We investigate charge ordering in the Holstein model in the presence of anisotropic hopping, $t_x, t_y = 1−\delta, 1+\delta$, as a model of the effect of strain on charge density wave (CDW) materials.
-    Using Quantum Monte Carlo simulations, we show that the CDW transition temperature is relatively insensitive to moderate anisotropy $\delta \leq 0.3$, but begins to decrease more rapidly at $\delta \geq 0.4$.
-    However, the density correlations, as well as the kinetic energies parallel and perpendicular to the compressional axis, change significantly for moderate $\delta$.
-    Accompanying mean-field theory calculations show a similar qualitative structure, with the transition temperature relatively constant at small δ and a more rapid decrease for larger strains.
-    We also obtain the density of states $N(\omega)$, which provides clear signal of the charge ordering transition at large strain, where finite size scaling of the charge structure factor is extremely difficult
-    because of the small value of the order parameter.
-  }
-}
-
-@article{bradley2023charge,
-  title={Charge order in the kagome lattice {Holstein} model: a hybrid {Monte Carlo} study},
-  author={Bradley, Owen and Cohen-Stead, Benjamin and Johnston, Steven and Barros, Kipton and Scalettar, Richard T},
-  journal={npj Quantum Materials},
-  volume={8},
-  number={1},
-  pages={21},
-  year={2023},
-  publisher={Nature Publishing Group UK London},
-  keywords={paper},
-  website={https://www.nature.com/articles/s41535-023-00553-y},
-  doi={10.1038/s41535-023-00553-y},
-  arxiv={2212.05714},
-  abstract={
-    The Holstein model is a paradigmatic description of the electron-phonon interaction, in which electrons couple to local dispersionless phonon modes,
-    independent of momentum. The model has been shown to host a variety of ordered ground states such as charge density wave (CDW) order and superconductivity
-    on several geometries, including the square, honeycomb, and Lieb lattices. In this work, we study CDW formation in the Holstein model on the kagome lattice,
-    using a recently developed hybrid Monte Carlo simulation method. We present evidence for CDW order at an average electron filling of
-    $\langle n \rangle = 2/3$ per site, with an ordering wavevector at the $K$-points of the Brillouin zone. We estimate a phase transition occurring at
-    $T_{c} \approx t/18$, where $t$ is the nearest-neighbor hopping parameter. Our simulations find no signature of CDW order at other electron fillings or
-    ordering momenta for temperatures $T \geq t/20$.
-  }
-}
-
-@article{dee2023charge,
-  title={Charge correlations suppress unconventional pairing in the {Holstein} model},
-  author={Dee, Philip M and Cohen-Stead, Benjamin and Johnston, Steven and Hirschfeld, PJ},
-  journal={Physical Review B},
-  volume={107},
-  number={10},
-  pages={104503},
-  year={2023},
-  publisher={APS},
-  keywords={paper},
-  website={https://journals.aps.org/prb/abstract/10.1103/PhysRevB.107.104503},
-  doi={10.1103/PhysRevB.107.104503},
-  arxiv={2301.00480},
-  abstract={
-    In a recent work by Schrodi et al. [Phys. Rev. B 104, L140506 (2021)], the authors find an unconventional superconducting state with a
-    sign-changing order parameter using the Migdal-Eliashberg theory, including the first vertex correction.
-    This unconventional solution arises despite using an isotropic bare electron-phonon coupling in the Hamiltonian.
-    We examine this claim using hybrid quantum Monte Carlo for a single-band Holstein model with a cuprate-like noninteracting band structure
-    and identical parameters to Schrodi et al. Our Monte Carlo results for these parameters suggest that unconventional pairing correlations do not
-    exceed their noninteracting values at any carrier concentration we have checked.
-    Instead, strong charge-density-wave correlations persist at the lowest accessible temperatures for dilute and nearly half-filled bands.
-    Lastly, we present arguments for how vertex-corrected Migdal-Eliashberg calculation schemes can lead to uncontrolled results in the presence of Fermi surface nesting.
-  }
-}
-
-@article{PhysRevE.105.045311,
+@article{Miles2022Dynamical,
   title = {Dynamical tuning of the chemical potential to achieve a target particle number in grand canonical {Monte Carlo} simulations},
   author = {Miles, Cole and Cohen-Stead, Benjamin and Bradley, Owen and Johnston, Steven and Scalettar, Richard and Barros, Kipton},
   journal = {Phys. Rev. E},
@@ -372,7 +378,7 @@
   }
 }
 
-@article{paleari2021quantum,
+@article{Paleari2021Quantum,
   title={Quantum {Monte Carlo} study of an anharmonic {Holstein} model},
   author={Paleari, G and H{\'e}bert, F and Cohen-Stead, B and Barros, K and Scalettar, Richard T and Batrouni, George Ghassan},
   journal={Physical Review B},
@@ -392,5 +398,51 @@
     as well as the transition temperature to this phase.
     Doping away from half-filling, we observe a first order phase transition between the CDW and a homogeneous phase which is also present in the harmonic model.
     In addition, we study the evolution of the superconducting susceptibility in the doped region and show that anharmonicity can enhance the superconducting response.
+  }
+}
+
+@article{Cohen-Stead2020Langevin,
+  title={Langevin simulations of the half-filled cubic {Holstein} model},
+  author={Cohen-Stead, Benjamin and Barros, Kipton and Meng, Zi Yang and Chen, Chuang and Scalettar, RT and Batrouni, GG},
+  journal={Physical Review B},
+  volume={102},
+  number={16},
+  pages={161108},
+  year={2020},
+  publisher={APS},
+  keywords={paper},
+  website={https://journals.aps.org/prb/abstract/10.1103/PhysRevB.102.161108},
+  doi={10.1103/PhysRevB.102.161108},
+  arxiv={2005.00918},
+  abstract={
+    Over the past several years, reliable Quantum Monte Carlo results for the charge density wave transition temperature $T_{cdw}$ of the half-filled
+    two dimensional Holstein model in square and honeycomb lattices have become available for the first time.
+    Exploiting the further development of numerical methodology, here we present results in three dimensions, which are made possible through the
+    use of Langevin evolution of the quantum phonon degrees of freedom. In addition to determining $T_{cdw}$ from the scaling of the charge correlations,
+    we also examine the nature of charge order at general wave vectors for different temperatures, couplings, and phonon frequencies, and the behavior
+    of the spectral function and specific heat.
+  }
+}
+
+@article{Cohen-Stead2019Effect,
+  title={Effect of strain on charge density wave order in the {Holstein} model},
+  author={Cohen-Stead, Benjami and Costa, NC and Khatami, Ehsan and Scalettar, RT},
+  journal={Physical Review B},
+  volume={100},
+  number={4},
+  pages={045125},
+  year={2019},
+  publisher={APS},
+  keywords={paper},
+  website={https://journals.aps.org/prb/abstract/10.1103/PhysRevB.100.045125},
+  doi={10.1103/PhysRevB.100.045125},
+  arxiv={1905.05831},
+  abstract={
+    We investigate charge ordering in the Holstein model in the presence of anisotropic hopping, $t_x, t_y = 1−\delta, 1+\delta$, as a model of the effect of strain on charge density wave (CDW) materials.
+    Using Quantum Monte Carlo simulations, we show that the CDW transition temperature is relatively insensitive to moderate anisotropy $\delta \leq 0.3$, but begins to decrease more rapidly at $\delta \geq 0.4$.
+    However, the density correlations, as well as the kinetic energies parallel and perpendicular to the compressional axis, change significantly for moderate $\delta$.
+    Accompanying mean-field theory calculations show a similar qualitative structure, with the transition temperature relatively constant at small δ and a more rapid decrease for larger strains.
+    We also obtain the density of states $N(\omega)$, which provides clear signal of the charge ordering transition at large strain, where finite size scaling of the charge structure factor is extremely difficult
+    because of the small value of the order parameter.
   }
 }

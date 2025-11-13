@@ -54,7 +54,7 @@
 - title: Grants and Awards
   type: time_table
   contents:
-    - title:  <a href="https://www.simonsfoundation.org/grant/scientific-software-research-faculty-award/" target="_blank">Scientific Software Research Faculty (SSRF) Award</a>
+    - title:  <a href="https://www.simonsfoundation.org/2025/09/02/announcing-the-first-scientific-software-research-faculty-fellows/" target="_blank">Scientific Software Research Faculty (SSRF) Award</a>
       year: 2024-2029
       institution: Simons Foundation
       description:
@@ -101,6 +101,13 @@
         - Software package for denoising imaginary-time correlation data using the Hankel projection method.
         - <a href="https://juliahub.com/ui/Packages/General/SmoQyHankelCorrCleaner" target="_blank">Registered Julia package.</a>
         - <a href="https://smoqysuite.github.io/SmoQyHankelCorrCleaner.jl/stable/" target="_blank">Documentation link.</a>
+    - title: <a href="https://github.com/SmoQySuite/SmoQyKPMCore.jl.git" target="_blank">SmoQyKPMCore.jl</a>
+      institution: <a href="https://github.com/SmoQySuite" target="_blank">SmoQySuite</a>
+      year: 2024 - present
+      description:
+        - A utility package for performing Kernel Polynomial Method (KPM) calculation to approximate functions of Hermitian matrices.
+        - <a href="https://juliahub.com/ui/Packages/General/SmoQyKPMCore" target="_blank">Registered Julia package.</a>
+        - <a href="https://smoqysuite.github.io/SmoQyKPMCore.jl/stable/" target="_blank">Documentation link.</a>
     - title: <a href="https://github.com/SmoQySuite/JDQMCFramework.jl.git" target="_blank">JDQMCFramework.jl</a>
       institution: <a href="https://github.com/SmoQySuite" target="_blank">SmoQySuite</a>
       year: 2022 - present

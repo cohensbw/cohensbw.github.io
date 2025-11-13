@@ -24,7 +24,7 @@ Hi, and thank you for visiting my site!
 I am a Research Assistant Professor in the Department of Physics and Astronomy at the University of Tennessee, Knoxville (UTK), and am based out of the
 [Institute for Advanced Materials & Manufacturing (IAMM)](https://research.utk.edu/iamm/).
 My position at UTK was created after receiving the
-[Scientific Software Research Faculty (SSRF)](https://www.simonsfoundation.org/grant/scientific-software-research-faculty-award/)
+[Scientific Software Research Faculty (SSRF)](https://www.simonsfoundation.org/2025/09/02/announcing-the-first-scientific-software-research-faculty-fellows/)
 award, and my work focuses on the development of open source software tools for the condensed matter physics (CMP) research community.
 Prior to switching into my current position, I worked as a postdoctoral researcher in Professor Steve Johnston's research group at UTK
 after receiving my PhD from the Department of Physics and Astronomy at the University of California, Davis.
