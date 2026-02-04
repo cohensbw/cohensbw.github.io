@@ -9,7 +9,7 @@ profile:
   image: portrait-174.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>Office 212 @ <a href='https://research.utk.edu/iamm/'>IAMM</a></p>
+    <p>Office 260 @ <a href='https://research.utk.edu/iamm/'>IAMM</a></p>
     <p>2641 Osprey Vista Way</p>
     <p>Knoxville, TN 37920</p>
 
