@@ -77,9 +77,43 @@
         - "US Patent Number: 10962437"
         - "Inventors: Anders Nottrott, Sean MacMullin, Sze M. Tan, Benjamin Cohen-Stead, Chris W. Rella"
 
+- title: Talks
+  type: time_table
+  contents:
+    - title: A Determinant Quantum Monte Carlo Study of a Minimal Electron-Phonon Model for Kekulé Lattice Distortions in Strained Graphene
+      institution: Department of Physics, Harvery Mudd College
+      year: April 7, 2026
+      description:
+        - "Invited Departmental Physics Colloquium"
+        - "Host: Professor Eduardo Ibarra García Padilla"
+    - title: <a href="https://www.youtube.com/watch?v=mUJqDbTprDY&list=PLP8iPy9hna6SZOq4EH_nE_BFulBAKXkf1&index=70" target="_blank">Simulating Strongly-Correlated Material Models</a>
+      institution: <a href="https://juliacon.org/2025/" target="_blank">JuliaCon Conference at the University of Pittsburgh</a>
+      year: July 25, 2025
+      description:
+        - "Invited talk in the Computational Chemisty and Materials Science Minisymposium at JuliaCon conference"
+    - title: Revisiting the Bismuthate Family of High-\(T_c\) Superconductors with a Modern Tool Kit
+      institution: Department of Physics & Astronomy at San Jose State University
+      year: November 8, 2023
+      description:
+        - "Invited Departmental Seminar"
+        - "Host: Professor Ehsan Khatami"
+    - title: Bond-Stretching Electron-Phonon Interactions in \(\text{BaBiO}_3\)
+      institution: Department of Physics & Astronomy at the University of Tennessee, Knoxville
+      year: October 18, 2023
+      description:
+        - "Invited Departmental Condensed Matter Seminar"
+        - "Host: Professor Steven Johnston"
+
 - title: Open Source Software
   type: time_table
   contents:
+    - title: <a href="https://github.com/SmoQySuite/SmoQyElPhQMC.jl.git" target="_blank">SmoQyElPhQMC.jl</a>
+      institution: <a href="https://github.com/SmoQySuite" target="_blank">SmoQySuite</a>
+      year: 2025 - present
+      description:
+        - Software package performing quantum Monte Carlo simulations of electron-phonon models with a computation cost the scales near-linearly with system size.
+        - <a href="https://juliahub.com/ui/Packages/General/SmoQyElPhQMC" target="_blank">Registered Julia package.</a>
+        - <a href="https://smoqysuite.github.io/SmoQyElPhQMC.jl/stable/" target="_blank">Documentation link.</a>
     - title: <a href="https://github.com/SmoQySuite/SmoQyDQMC.jl.git" target="_blank">SmoQyDQMC.jl</a>
       institution: <a href="https://github.com/SmoQySuite" target="_blank">SmoQySuite</a>
       year: 2023 - present
